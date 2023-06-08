@@ -57,7 +57,9 @@ export default function SidebarSublinks({
         </Link>
       )}
 
-      {open && submenu && submenu.map((m) => <SidebarSublinks {...m} />)}
+      {open &&
+        submenu &&
+        submenu.map((m) => <SidebarSublinks key={m.id} {...m} />)}
     </div>
   );
 }

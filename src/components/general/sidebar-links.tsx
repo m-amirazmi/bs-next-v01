@@ -6,7 +6,7 @@ export default function SidebarLinks({ menu }: ISidebarLinksProps) {
   return (
     <div className={styles.container}>
       {menu.map((m) => (
-        <SidebarSublinks {...m} />
+        <SidebarSublinks key={m.id} {...m} />
       ))}
     </div>
   );
