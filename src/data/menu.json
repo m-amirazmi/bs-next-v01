@@ -1,0 +1,210 @@
+[
+  {
+    "id": "1",
+    "category": "Burger Management",
+    "links": [
+      {
+        "id": "1.1",
+        "title": "Dashboard",
+        "icon": "house-fill",
+        "slug": "/admin"
+      },
+      {
+        "id": "1.2",
+        "title": "Burger Listings",
+        "icon": "layers-fill",
+        "submenu": [
+          {
+            "id": "1.2.1",
+            "title": "View Listings",
+            "slug": "/admin/burger-listings/view"
+          },
+          {
+            "id": "1.2.2",
+            "title": "Add New Listing",
+            "slug": "/admin/burger-listings/add"
+          },
+          {
+            "id": "1.2.3",
+            "title": "Edit Listing",
+            "slug": "/admin/burger-listings/edit"
+          },
+          {
+            "id": "1.2.4",
+            "title": "Delete Listing",
+            "slug": "/admin/burger-listings/delete"
+          }
+        ]
+      },
+      {
+        "id": "1.3",
+        "title": "Burger Types",
+        "icon": "layers-fill",
+        "submenu": [
+          {
+            "id": "1.3.1",
+            "title": "View Types",
+            "slug": "/admin/burger-types/view"
+          },
+          {
+            "id": "1.3.2",
+            "title": "Add New Type",
+            "slug": "/admin/burger-types/add"
+          },
+          {
+            "id": "1.3.3",
+            "title": "Edit Type",
+            "slug": "/admin/burger-types/edit"
+          },
+          {
+            "id": "1.3.4",
+            "title": "Delete Type",
+            "slug": "/admin/burger-types/delete"
+          }
+        ]
+      },
+      {
+        "id": "1.4",
+        "title": "Burger Options",
+        "icon": "layers-fill",
+        "submenu": [
+          {
+            "id": "1.4.1",
+            "title": "View Options",
+            "slug": "/admin/burger-options/view"
+          },
+          {
+            "id": "1.4.2",
+            "title": "Add New Option",
+            "slug": "/admin/burger-options/add"
+          },
+          {
+            "id": "1.4.3",
+            "title": "Edit Option",
+            "slug": "/admin/burger-options/edit"
+          },
+          {
+            "id": "1.4.4",
+            "title": "Delete Option",
+            "slug": "/admin/burger-options/delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "category": "User Access Management",
+    "links": [
+      {
+        "id": "2.1",
+        "title": "Users",
+        "icon": "people-fill",
+        "submenu": [
+          {
+            "id": "2.1.1",
+            "title": "View Users",
+            "slug": "/admin/users/view"
+          },
+          {
+            "id": "2.1.2",
+            "title": "Add New User",
+            "slug": "/admin/users/add"
+          },
+          {
+            "id": "2.1.3",
+            "title": "Edit User",
+            "slug": "/admin/users/edit"
+          },
+          {
+            "id": "2.1.4",
+            "title": "Delete User",
+            "slug": "/admin/users/delete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "category": "Configuration",
+    "links": [
+      {
+        "id": "3.1",
+        "title": "Reports",
+        "icon": "bar-chart-fill",
+        "submenu": [
+          {
+            "id": "3.1.1",
+            "title": "Sales Report",
+            "slug": "/admin/reports/sales"
+          },
+          {
+            "id": "3.1.2",
+            "title": "User Activity Report",
+            "slug": "/admin/reports/user-activity"
+          },
+          {
+            "id": "3.1.3",
+            "title": "Popular Burger Stalls Report",
+            "slug": "/admin/reports/popular-stalls"
+          },
+          {
+            "id": "3.1.4",
+            "title": "Custom Report Builder",
+            "slug": "/admin/reports/custom-builder"
+          }
+        ]
+      },
+      {
+        "id": "3.2",
+        "title": "Settings",
+        "icon": "gear-fill",
+        "submenu": [
+          {
+            "id": "3.2.1",
+            "title": "General Settings",
+            "slug": "/admin/settings/general"
+          },
+          {
+            "id": "3.2.2",
+            "title": "Dashboard Configuration",
+            "slug": "/admin/settings/dashboard"
+          },
+          {
+            "id": "3.2.3",
+            "title": "Email Templates",
+            "slug": "/admin/settings/email-templates"
+          },
+          {
+            "id": "3.2.4",
+            "title": "Notifications",
+            "slug": "/admin/settings/notifications"
+          }
+        ]
+      },
+      {
+        "id": "3.3",
+        "title": "Help/Support",
+        "icon": "question-circle-fill",
+        "submenu": [
+          {
+            "id": "3.3.1",
+            "title": "Documentation",
+            "slug": "/admin/help/documentation"
+          },
+          {
+            "id": "3.3.2",
+            "title": "FAQs",
+            "slug": "/admin/help/faqs"
+          },
+          {
+            "id": "3.3.3",
+            "title": "Contact Support",
+            "slug": "/admin/help/contact"
+          }
+        ]
+      }
+    ]
+  }
+]

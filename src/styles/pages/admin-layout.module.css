@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  max-width: var(--dashboard-main-width);
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+}

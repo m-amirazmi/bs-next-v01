@@ -1,0 +1,29 @@
+:root {
+  --color-primary: rgba(0, 167, 111, 1);
+  --color-primary-dark: rgba(0, 75, 80, 1);
+  --color-text: rgba(33, 43, 54, 1);
+  --color-text-grey: rgba(99, 115, 129, 1);
+  --color-bg-white: rgba(255, 255, 255, 1);
+  --color-bg-primary-dark: rgba(0, 120, 103, 1);
+  --color-bg-primary-soft: rgba(0, 167, 111, 0.08);
+  --color-info-text: rgba(0, 55, 104, 1);
+  --color-warning-text: rgba(122, 65, 0, 1);
+  --color-danger-text: rgba(122, 9, 22, 1);
+  --color-border: rgba(145, 158, 171, 0.2);
+  --color-muted: rgba(145, 158, 171, 1);
+
+  --color-sidebar-hover: rgba(145, 158, 171, 0.08);
+
+  --dashboard-sidebar-width: 280px;
+  --dashboard-main-width: calc(100% - var(--dashboard-sidebar-width));
+
+  --breakpoints-mobile: 576px;
+  --breakpoints-tablet: 992px;
+  --breakpoints-desktop: 1440px;
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    /* --dashboard-sidebar-width: 80px; */
+  }
+}
